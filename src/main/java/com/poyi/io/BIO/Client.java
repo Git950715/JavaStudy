@@ -36,6 +36,12 @@ public class Client {
                 out = null;
             }
             if(socket!=null){
+                //展示阻塞的地方
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 try {
                     socket.close();
                 } catch (IOException e) {

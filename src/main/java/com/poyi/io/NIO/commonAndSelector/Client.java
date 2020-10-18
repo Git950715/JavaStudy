@@ -1,4 +1,4 @@
-package com.poyi.io.NIO;
+package com.poyi.io.NIO.commonAndSelector;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -7,7 +7,6 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
-import java.util.Scanner;
 
 public class Client {
 
